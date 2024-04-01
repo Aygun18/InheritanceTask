@@ -9,10 +9,10 @@ namespace Inheritance
 			//Tapşırıq:
 			//Student classınız olsun. int[] Grades propertysi olsun.
 			//Studentdən obyekt yaradıb grades-i set edəndə arrayin yalnız cüt ədədlərindən ibarət yeni bir array set olunsun.
-			Student student = new Student();
+			Student student = new Student(new int[] { 34, 36, 44, 48, 45, 67, 56, 78, 76, 23, 26 });
 
-            student.Grades=new int[] {34,36,44,48,45,67,56,78,76,23,26};
-			student.GradesStudent();
+           
+			
 
 			
 

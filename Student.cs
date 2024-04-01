@@ -10,8 +10,12 @@ namespace Inheritance
 	internal class Student
 	{
 		public int[] Grades;
-
-		public void GradesStudent()
+        public Student(int[] grades)
+        {
+            Grades = grades;
+			GradesStudent();
+        }
+        public void GradesStudent()
 		{
 			int count = 0;
 
